@@ -9,7 +9,7 @@ const Edit = ({ node, onEdit, onClose }) => {
   };
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl px-4 py-6 mt-4 shadow-sm w-[60%] mx-auto mb-6">
+    <div className="bg-white border border-gray-200 rounded-xl px-4 py-6 mt-4 shadow-sm w-[60%] mx-auto">
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
           <span
@@ -35,7 +35,7 @@ const Edit = ({ node, onEdit, onClose }) => {
         value={node.text}
         onChange={(e) => onEdit(node.id, e.target.value)}
         rows={3}
-        className="w-full text-sm p-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-(--primary)/40 resize-y leading-relaxed"
+        className="w-full text-sm p-2.5 text-secondary rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary resize-none"
       />
 
       <div className="text-[11px] text-gray-400 mt-2">
