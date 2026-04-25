@@ -5,7 +5,8 @@ A visual decision tree editor for building and testing customer support conversa
 SupportFlow Visual Builder makes it easy for support teams to create, update, and test bot conversations using a simple live flowchart interface. Instead of dealing with confusing Excel sheets, managers can clearly see every question, decision path, and outcome in one place. They can click on any step to quickly edit the wording, then switch to a chat preview to experience the conversation exactly as a customer would.
 
 ### Getting Started
-bash```
+
+```bash
 yarn install
 yarn dev
 ```
@@ -47,7 +48,7 @@ used dark. Fixed dimensions supplied by meta.canvas_size in the JSON. Nodes are 
 
 ## Project structure
 
-bash```
+```bash
 src/
   components/
     Navbar.jsx          # Mode toggle
