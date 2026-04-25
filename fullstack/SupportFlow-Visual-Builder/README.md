@@ -1,6 +1,11 @@
 # SupportFlow Visual Builder
 A visual decision tree editor for building and testing customer support conversation flows
 
+## URLs
+- https://www.figma.com/design/kFpzc5VLSmT8QjmLDlBP3K/SupportFlow-Visual-Builder?node-id=0-1&t=ydnmB0pfpmlnfZB1-1
+
+- https://ialbertine-supportflow.vercel.app/
+
 ## What This Project for
 SupportFlow Visual Builder makes it easy for support teams to create, update, and test bot conversations using a simple live flowchart interface. Instead of dealing with confusing Excel sheets, managers can clearly see every question, decision path, and outcome in one place. They can click on any step to quickly edit the wording, then switch to a chat preview to experience the conversation exactly as a customer would.
 
